@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZepteritTask.WebApi", "ZepteritTask\ZepteritTask.WebApi.csproj", "{55282DC4-AB08-4E57-B4CD-901880851F68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZepteritTask.Database", "ZepteritTask.Database\ZepteritTask.Database.csproj", "{4906E00E-4324-4F67-8E61-4BC18E1BC5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZepteritTask.Common", "ZepteritTask.Common\ZepteritTask.Common.csproj", "{C763B506-6E16-4A50-AC34-67B3EA640555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZepteritTask.Repository", "ZepteritTask.Repository\ZepteritTask.Repository.csproj", "{B4DDFF16-E9E0-432E-9E4A-E9AA9E2049DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZepteritTask.Client", "ZepteritTask.Client\ZepteritTask.Client.csproj", "{46634878-54D9-4713-B788-DD86073DBE9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZepteritTask.Repository.Tests", "ZepteritTask.Repository.Tests\ZepteritTask.Repository.Tests.csproj", "{6E005878-EDA5-4FBE-B63B-902ADAE29962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55282DC4-AB08-4E57-B4CD-901880851F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55282DC4-AB08-4E57-B4CD-901880851F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55282DC4-AB08-4E57-B4CD-901880851F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55282DC4-AB08-4E57-B4CD-901880851F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4906E00E-4324-4F67-8E61-4BC18E1BC5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4906E00E-4324-4F67-8E61-4BC18E1BC5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4906E00E-4324-4F67-8E61-4BC18E1BC5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4906E00E-4324-4F67-8E61-4BC18E1BC5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C763B506-6E16-4A50-AC34-67B3EA640555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C763B506-6E16-4A50-AC34-67B3EA640555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C763B506-6E16-4A50-AC34-67B3EA640555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C763B506-6E16-4A50-AC34-67B3EA640555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DDFF16-E9E0-432E-9E4A-E9AA9E2049DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DDFF16-E9E0-432E-9E4A-E9AA9E2049DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DDFF16-E9E0-432E-9E4A-E9AA9E2049DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DDFF16-E9E0-432E-9E4A-E9AA9E2049DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46634878-54D9-4713-B788-DD86073DBE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46634878-54D9-4713-B788-DD86073DBE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46634878-54D9-4713-B788-DD86073DBE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46634878-54D9-4713-B788-DD86073DBE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E005878-EDA5-4FBE-B63B-902ADAE29962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E005878-EDA5-4FBE-B63B-902ADAE29962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E005878-EDA5-4FBE-B63B-902ADAE29962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E005878-EDA5-4FBE-B63B-902ADAE29962}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596B26C1-FA1A-420F-B968-0E135B0DF933}
+	EndGlobalSection
+EndGlobal
